@@ -1,4 +1,4 @@
-
+#This is for the Gui
 from PyQt5 import QtCore, QtGui, QtWidgets
 
 
@@ -114,7 +114,7 @@ class Ui_MainWindow(object):
         self.label_5.setText(_translate("MainWindow", "result:"))
         self.convert.setText(_translate("MainWindow", "Convert"))
         self.convert.clicked.connect(self.currency)
-        
+    #This is the logic of the code
     def currency(self):
         f=-1
         b=self.froml.currentText()
